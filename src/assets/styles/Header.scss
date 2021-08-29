@@ -1,0 +1,21 @@
+$text-center: center;
+$header-color: transparent;
+
+.header {
+    width: 100%;
+}  
+
+.header-items {
+    max-width: 1240px;
+    background-color: $header-color;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header-items__title {
+    text-align: $text-center;
+}
+
+.header-items__subtitle {
+    text-align: $text-center;
+}
